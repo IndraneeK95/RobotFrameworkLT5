@@ -9,9 +9,7 @@ Test Teardown      Close Browser
 
 *** Test Cases ***
 Verify Invalid Credential Test
-    Launch Browser
     Input Text    id=txtUsername    Balaji
     Input Password    id=txtPassword    pass123
     Click Element    id=btnLogin
     Element Text Should Be    id=spanMessage    Invalid credentials
-    
