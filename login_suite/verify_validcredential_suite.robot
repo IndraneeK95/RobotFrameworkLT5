@@ -2,7 +2,7 @@
 Documentation      This suite will handles all the test cases related to valid
 ...     credential test for orangehrm. Test case - TC_OH_2
 
-Resource       ../Resource/Base/CommonFunctionality.resource
+Resource      ../Resource/Base/CommonFunctionality.resource
 
 Test Teardown      Close Browser
 
