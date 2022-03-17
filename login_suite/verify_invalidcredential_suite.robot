@@ -4,7 +4,7 @@ Documentation      This suite will handles all the test cases related to invalid
 
 Resource      ../Resource/Base/CommonFunctionality.resource
 
-Test Setup      Launch Browser
+Test Setup      Launch Browser And Navigate To URL
 Test Teardown      Close Browser
 
 Test Template       Verify Invalid Credential Template
