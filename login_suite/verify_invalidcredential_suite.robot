@@ -4,6 +4,7 @@ Documentation      This suite will handles all the test cases related to invalid
 
 Resource      ../Resource/Base/CommonFunctionality.resource
 
+Test Setup      Launch Browser
 Test Teardown      Close Browser
 
 *** Test Cases ***
