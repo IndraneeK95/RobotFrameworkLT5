@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation      This suite will handles all the test cases related to invalid
-...     credential test for orangehrm. Test case - TC_OH_3
+...     credential test for orangehrm. Test case - TC_OH_3,4,5
 
 Resource      ../Resource/Base/CommonFunctionality.resource
 
@@ -12,6 +12,9 @@ Test Template       Verify Invalid Credential Template
 *** Test Cases ***
 TC1       john      john123     Invalid credentials
 TC2       peter     peter123     Invalid credentials
+TC3       ${EMPTY}      admin123        Username cannot be empty
+TC4       bala       ${EMPTY}       Password cannot be empty
+
 
 *** Keywords ***
 Verify Invalid Credential Template
